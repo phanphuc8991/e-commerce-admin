@@ -1,0 +1,43 @@
+.newMembers {
+  div {
+    .cardWrapper {
+      margin: 25px 20px;
+      .list {
+        .listItem {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 15px;
+          .des {
+            .name {
+              font-weight: bold;
+            }
+            .career {
+              font-weight: 300;
+            }
+          }
+          .display {
+            display: flex;
+            align-items: center;
+            background-color: #eeeef7;
+            padding: 5px 8px;
+            color: gray;
+            font-size: 13px;
+            border-radius: 10px;
+            transition: all 0.8s ease;
+            .displayIcon {
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              margin-right: 5px;
+            }
+          }
+          .display:hover {
+            opacity: 0.7;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

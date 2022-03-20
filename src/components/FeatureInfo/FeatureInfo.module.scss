@@ -1,0 +1,42 @@
+.featureInfo {
+  margin-bottom: 20px;
+  div {
+    div {
+      div {
+        .cardWrapper {
+          margin: 35px 30px;
+          .title {
+            font-size: 20px;
+            margin-bottom: 10px;
+          }
+          .numberWrapper {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            .numberPrice {
+              font-size: 26px;
+              font-weight: bold;
+              margin-right: 20px;
+            }
+            .numberPercent {
+              display: flex;
+              align-items: center;
+              span {
+                margin-right: 10px;
+              }
+              .numberPercentArrow {
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              }
+            }
+          }
+          .text {
+            color: gray;
+          }
+        }
+      }
+    }
+  }
+}

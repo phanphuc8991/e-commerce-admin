@@ -1,0 +1,38 @@
+.navbar {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  top: 0;
+  left: 0;
+  .wrapper {
+    margin: 0 20px;
+    display: flex;
+    padding: 10px 0;
+    justify-content: space-between;
+
+    .logo {
+      color: darkblue;
+    }
+    .info {
+      display: flex;
+      align-items: center;
+      position: relative;
+      .infoItem {
+        margin-left: 20px;
+
+        .infoItemWrapper {
+          display: flex;
+          align-items: center;
+        }
+      }
+      .infoItem:hover {
+        cursor: pointer;
+      }
+      .infoUser {
+        position: absolute;
+        top: calc(100% + 5px);
+        left: -20px;
+      }
+    }
+  }
+}
